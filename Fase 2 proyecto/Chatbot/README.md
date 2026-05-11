@@ -54,7 +54,7 @@ Esta opción instala y configura todo automáticamente. Solo necesitas Docker.
 
 ```bash
 git clone https://github.com/sebavaldik/PROYECTO-1-INGENIERIA-DE-APRENDIZAJE-AUTOMATICO.git
-cd bike-mechanic-chatbot
+cd Chatbot
 ```
 
 ### Paso 3 — Levantar el sistema
@@ -140,7 +140,7 @@ Esta opción requiere instalar Python y Ollama manualmente.
 
 ```bash
 git clone https://github.com/sebavaldik/PROYECTO-1-INGENIERIA-DE-APRENDIZAJE-AUTOMATICO.git
-cd bike-mechanic-chatbot
+cd Chatbot
 ```
 
 ### Paso 4 — Crear un entorno virtual
