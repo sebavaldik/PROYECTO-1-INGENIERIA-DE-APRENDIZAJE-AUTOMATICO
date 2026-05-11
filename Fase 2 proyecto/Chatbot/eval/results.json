@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "timestamp": "2026-05-10T17:00:14.094681",
+    "api_url": "http://localhost:8000",
+    "total_questions": 10,
+    "successful": 10,
+    "failed": 0
+  },
+  "results": [
+    {
+      "id": 1,
+      "question": "¿Cuál es el procedimiento paso a paso para purgar unos frenos de disco hidráulicos Shimano usando el kit de embudo?",
+      "answer": "Según el manual técnico de Shimano, aquí te presento el procedimiento paso a paso para purgar frenos de disco hidráulicos Shimano:\n\n**Procedimiento:**\n\n1. Coloque la maneta de freno en la posición de uso con un ángulo de 45º respecto al suelo.\n2. Quite el tornillo de purga superior y la junta tórica y coloque el embudo de aceite.\n\n**Nota:** El manual no proporciona una imagen o diagrama específico para este paso, por lo que se asume que el usuario conoce la ubicación de los componentes mencionados.\n\n3. Coloque una llave de 7 mm en la posición y llena la jeringa con aceite según se indica en el apartado \"Adición de aceite mineral original de SHIMANO y purgado de aire\".\n4. Utilice solo aceite mineral original de Shimano.\n5. Elimine el aceite usado con arreglo a las normativas de eliminación regionales o nacionales.\n\n**Nota:** El manual no proporciona una imagen o diagrama específico para este paso, por lo que se asume que el usuario conoce la ubicación del separador de purga y las pastillas.\n\n6. Limpie el aceite que haya rebosado.\n7. Por último, tras retirar el separador de purga e instalar las pastillas y el separador de pastillas, presione la maneta de freno varias veces para comprobar si funciona con normalidad y no hay fugas de líquido en el latiguillo de freno o del sistema.\n\n**Nota:** El manual proporciona una imagen que muestra cómo realizar este paso, pero no se incluye aquí.\n\n8. Mientras aprieta la maneta de freno, abra y cierre la boquilla de purga en sucesiones rápidas (durante aproximadamente 0,5 segundos cada vez) para dejar salir las burbujas de aire que puedan quedar en las pinzas.\n\n**Nota:** El manual proporciona una imagen que muestra cómo realizar este paso, pero no se incluye aquí.\n\n9. Repita el procedimiento de abrir y cerrar la boquilla de purga unas 2 o 3 veces.\n10. Apriete la boquilla de purga y coloque el tapón de aceite en su lugar.\n\n**Nota:** El manual proporciona una imagen que muestra cómo realizar este paso, pero no se incluye aquí.\n\nRecuerda que es importante seguir las instrucciones del manual técnico específico para tu modelo de bicicleta Shimano.",
+      "sources": [
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\DM-MBBR001-04-SPA.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\DM-BR0005-16-SPA.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\DM-GN0001-26-SPA.pdf"
+      ],
+      "latency_s": 71.96,
+      "status": "OK"
+    },
+    {
+      "id": 2,
+      "question": "¿Cómo se ajustan los tornillos de límite (H y L) en un desviador delantero para evitar que la cadena se salga?",
+      "answer": "Según el manual, aquí te presento los pasos para ajustar los tornillos de límite (H y L) en un desviador delantero:\n\n**Ajuste de los tornillos de límite (L y H)**\n\n1. **Determina la posición de los tornillos de límite**: Si los tornillos de límite no tienen marcadores, debes determinar cuáles son el \"H\" y el \"L\" mediante pruebas.\n2. **Coloca la cadena en la pequeña cog**: Comienza con la cadena en la pequeña cog más grande (el \"H\").\n3. **Ajusta la tensión del cable**: Asegúrate de que haya suficiente tensión en el cable del desviador.\n4. **Alinea las marcas en la caja y el eje**: Alinea las marcas en la caja del desviador y el eje del sistema de movimiento hacia la pequeña cog más grande (el \"H\").\n5. **Ajusta el tornillo de límite L**:\n\t* Coloca la cadena en la pequeña cog más grande.\n\t* Presiona el pedal del freno para que la cadena se ajuste a la pequeña cog.\n\t* Ajusta el tornillo de límite L (L-screw) hacia arriba hasta que la cadena comience a tocar el eje del sistema de movimiento. Deja un pequeño espacio entre la cadena y el eje, no más de 0,5 mm.\n6. **Ajusta el tornillo de límite H**:\n\t* Coloca la cadena en la pequeña cog más grande.\n\t* Presiona el pedal del freno para que la cadena se ajuste a la pequeña cog.\n\t* Ajusta el tornillo de límite H (H-screw) hacia abajo hasta que la cadena comience a tocar el eje del sistema de movimiento. Deja un espacio entre la cadena y el eje, pero no demasiado grande.\n\n**Importante**: Si la cadena se salta la pequeña cog más grande, es posible que el ajuste de los tornillos de límite esté incorrecto o que haya problemas con la alineación del desviador. En este caso, debes revisar y ajustar los tornillos de límite nuevamente.\n\nRecuerda siempre seguir las instrucciones del manual y realizar pruebas cuidadosas para asegurarte de que el ajuste sea correcto y seguro.",
+      "sources": [
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\Big-Blue-Book-of-Bicycle-Repair.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\Front Derailleur Adjustment _ Park Tool.pdf"
+      ],
+      "latency_s": 44.67,
+      "status": "OK"
+    },
+    {
+      "id": 3,
+      "question": "¿Qué herramientas específicas se necesitan para extraer un cassette de 11 velocidades y cuál es el torque recomendado para volver a instalarlo?",
+      "answer": "Según el manual, para extraer un cassette de 11 velocidades, se requieren las siguientes herramientas:\n\n* Park Tool FR-5 (o Park Tool FR-5G con guía de pin) para remover la lockring del cassette.\n\nAdemás, es importante mencionar que el SRAM XX1 sistema tiene una propietaria freehub body y diseño de cassette que requiere un tratamiento especial. En este caso, se recomienda utilizar un chain whip para mantener el cassette stack en su lugar mientras se extrae.\n\nEn cuanto al torque recomendado para volver a instalar el cassette, no se proporciona información específica en el manual. Sin embargo, se menciona que el torque recomendado para volver a instalar la lockring es de 10 mm, sin especificar si se aplica tanto para los cassetes de 11 velocidades como para otros sistemas.\n\nEs importante tener en cuenta que, según el manual, el SRAM XX1 sistema requiere un tratamiento especial y no se puede instalar utilizando herramientas convencionales. Por lo tanto, es recomendable consultar con un profesional o seguir las instrucciones específicas del fabricante para evitar daños al cassette o a la bicicleta.\n\nEspero que esta información sea útil. Si tienes alguna otra pregunta, no dudes en preguntar.",
+      "sources": [
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\Big-Blue-Book-of-Bicycle-Repair.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\When to Replace a Worn Chain _ Park Tool.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\DM-GN0001-26-ENG.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\DM-GN0001-30-ENG.pdf"
+      ],
+      "latency_s": 25.61,
+      "status": "OK"
+    },
+    {
+      "id": 4,
+      "question": "¿Cuál es la presión de aire (PSI) recomendada para una horquilla RockShox Lyrik si el ciclista pesa 85 kg y busca un sag del 25%?",
+      "answer": "Según el manual proporcionado, para una horquilla RockShox Lyrik con un ciclista que pesa 85 kg y busca un sag del 25%, debemos consultar las recomendaciones de presión de aire (PSI) en función del peso del ciclista.\n\nEn este caso, según la tabla \"RIDER WEIGHT AIR PRESSURE CLICS OUT FROM FULL Y CLOSED\", el rango de peso para una horquilla RockShox Lyrik es:\n\n* 138.6-145.2 lbs / 63-66 kg (peso recomendado para un sag del 25%)\n\nComo el ciclista pesa 85 kg, que está dentro del rango recomendado, podemos consultar las recomendaciones de presión de aire en función del sag deseado.\n\nEn este caso, se recomienda un sag del 25%, por lo que debemos buscar la presión de aire correspondiente en la tabla \"SAG RECOMMENDED SETTING\".\n\nSegún el manual, para un sag del 25% y un peso del ciclista de 85 kg, la presión de aire recomendada es:\n\n* 140-150 PSI\n\nPor lo tanto, la presión de aire recomendada para una horquilla RockShox Lyrik si el ciclista pesa 85 kg y busca un sag del 25% es de aproximadamente 145 PSI.",
+      "sources": [
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\66e98ab576359528779255-neat-r-2025-suspension-setup-guide.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\2021-front-suspension-oil-air-coil-token-and-specifications-spanish.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\2022-front-suspension-oil-air-coil-token-and-specifications-english.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\2025-front-suspension-specifications.pdf"
+      ],
+      "latency_s": 30.39,
+      "status": "OK"
+    },
+    {
+      "id": 5,
+      "question": "¿Cómo se diagnostica y elimina un crujido en la dirección (headset) de una bicicleta de ruta con cableado interno?",
+      "answer": "Según el manual, para diagnosticar y eliminar un crujido en la dirección (headset) de una bicicleta de ruta con cableado interno, se pueden seguir los siguientes pasos:\n\n1. **Inspección del headset**: Verifique si el headset está pitted o desgastado. Un crujido en la dirección puede ser causado por un headset pitted o desgastado.\n2. **Prueba de correción de dirección**: Pique con la mano el frente de la bicicleta y gire los manijas hacia atrás y adelante desde el centro. Si el crujido persiste, es posible que el headset esté causando problemas.\n3. **Verificación del cableado interno**: Asegúrese de que el cableado interno esté bien ajustado y no esté causando fricción en la dirección.\n4. **Lubricación del headset**: Aplicar un lubricante ligero al headset puede ayudar a reducir o eliminar el crujido.\n5. **Reemplazo del headset**: Si el crujido persiste, es posible que deba reemplazar el headset con uno nuevo.\n\nEs importante tener en cuenta que si el crujido es severo, puede ser un problema más grave y requerir la atención de un profesional mecánico.\n\nEn cuanto a la eliminación del crujido, se recomienda seguir los siguientes pasos:\n\n1. **Aplicar lubricante**: Aplicar un lubricante ligero al headset, como un spray de grasa o un lubricante específico para bicicletas.\n2. **Girar los manijas**: Girar los manijas hacia atrás y adelante desde el centro varias veces para ayudar a distribuir el lubricante.\n3. **Verificar el crujido**: Después de aplicar el lubricante, girar los manijas nuevamente y verificar si el crujido ha sido eliminado.\n\nSi el crujido persiste después de aplicar lubricante, es posible que deba reemplazar el headset con uno nuevo.",
+      "sources": [
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\Big-Blue-Book-of-Bicycle-Repair.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\How to Overhaul a Threadless Headset _ Park Tool.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\DM-GN0001-26-ENG.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\DM-GN0001-30-ENG.pdf"
+      ],
+      "latency_s": 38.54,
+      "status": "OK"
+    },
+    {
+      "id": 6,
+      "question": "¿Cuál es la diferencia entre una caída y una subida del cambio trasero indexado, y cuál tornillo del desviador (H/L o tensión de cable) se debe ajustar en cada caso?",
+      "answer": "Según el manual, la diferencia entre una caída y una subida del cambio trasero indexado se puede determinar mediante los siguientes pasos:\n\n**Caída:**\n\n* La cadena cae hacia el lado de la biela.\n* En este caso, se debe girar en sentido horario el tornillo de ajuste superior.\n\n**Subida:**\n\n* La cadena no cae hacia el lado de la biela.\n* En este caso, no es necesario realizar ningún ajuste adicional.\n\nEn cuanto a los tornillos del desviador (H/L o tensión de cable), se deben ajustar de la siguiente manera:\n\n**Caída:**\n\n* El H-limit screw (tornillo de límite superior) debe estar ajustado correctamente para evitar que la cadena caiga hacia el lado de la biela.\n* Si el H-limit screw está demasiado ajustado, la cadena puede caer hacia el lado de la biela.\n\n**Subida:**\n\n* No se requiere ajustar el H-limit screw en este caso.\n\nEs importante tener en cuenta que si la cadena no cae hacia el lado de la biela, pero aún así no se transfiere correctamente a los rangos, es posible que deba revisar otros parámetros como la tensión del cable o la posición del desviador.",
+      "sources": [
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\Big-Blue-Book-of-Bicycle-Repair.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\DM-GN0001-26-SPA.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\DM-GN0001-26-ENG.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\DM-GN0001-30-ENG.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\Front Derailleur Adjustment _ Park Tool.pdf"
+      ],
+      "latency_s": 27.45,
+      "status": "OK"
+    },
+    {
+      "id": 7,
+      "question": "¿Qué señales indican que una cadena está desgastada y qué medición entrega el calibrador 'chain checker' para determinarlo (0,5%, 0,75%, 1%)?",
+      "answer": "Según el manual de Park Tool, las siguientes son las señales que indican que una cadena está desgastada:\n\n* Si se inserta fácilmente en la herramienta \"Chain Checker\" sin resistencia, significa que la cadena ha alcanzado un 0.5% de desgaste.\n* Si se inserta con dificultad y luego se inserta completamente, significa que la cadena ha alcanzado un 0.75% de desgaste.\n* Si no se inserta en absoluto, significa que la cadena no ha alcanzado un 0.5% de desgaste.\n\nEl calibrador \"Chain Checker\" entrega una medición del porcentaje de desgaste de la cadena, específicamente:\n\n* Un 0.5% de desgaste, indicado por el número de 0.5 en la herramienta.\n* Un 0.75% de desgaste, indicado por el número de 0.75 en la herramienta.\n* Un 1.0% de desgaste, no se menciona explícitamente en el manual, pero se sugiere que es el punto de reemplazo para la mayoría de los fabricantes.\n\nEs importante tener en cuenta que el calibrador \"Chain Checker\" proporciona una lectura precisa del porcentaje de desgaste de la cadena, lo que permite a los usuarios determinar con facilidad si es hora de reemplazarla.",
+      "sources": [
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\When to Replace a Worn Chain _ Park Tool.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\Big-Blue-Book-of-Bicycle-Repair.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\Chain Replacement_ Single Speed Bikes _ Park Tool.pdf"
+      ],
+      "latency_s": 28.35,
+      "status": "OK"
+    },
+    {
+      "id": 8,
+      "question": "¿Cómo se reemplaza correctamente una cámara pinchada en la rueda trasera con cambios, evitando dañar el desviador y respetando la dirección de rotación del neumático?",
+      "answer": "Según el manual, para reemplazar correctamente una cámara pinchada en la rueda trasera con cambios, es importante seguir los siguientes pasos:\n\n1. **Coloque el resto de la cámara entre la llanta y la cubierta**: Asegúrese de que la cámara no se torque ni acumulese dentro del pneumatico.\n2. **Mueva el área a ser re-bent lejos del cuerpo del desviador**: Esto es importante para evitar dañar el desviador mientras lo ajustas.\n3. **Verifique que el hanger esté alineado con la rueda**: Use el DAG-2 gauge como referencia y coloque el hanger en la posición correcta, rotando el brazo hacia la izquierda hacia las 9 de la tarde. Asegúrese de que el hanger esté alineado con la rueda y no se haya movido en la montura del frame.\n4. **Ajuste el hanger**: Use el DAG-2 gauge para verificar que el hanger esté correctamente ajustado y no se haya torcido o acumulado dentro de la cámara.\n\nEs importante mencionar que, según el manual, no se debe utilizar las tornillos DAG-2 como \"chaser\" de malas tornillas en el hanger. En su lugar, se debe rotar el brazo hacia la izquierda hacia las 9 de la tarde y usar el valve del rim como referencia para verificar la alineación del hanger.\n\nAdemás, es importante asegurarse de que el nuevo rotor y los nuevos palillos estén \"quemados\" (burned in) antes de instalarlos. Esto ayuda a eliminar solventes y residuos de los palillos y rotores, y también transfiere la materia prima al rotores.\n\nEspero que esto te ayude a reemplazar correctamente la cámara pinchada en la rueda trasera con cambios. Si tienes alguna otra pregunta, no dudes en preguntar.",
+      "sources": [
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\Big-Blue-Book-of-Bicycle-Repair.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\tires_and_extenders_user_manual.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\2022-2023-domain-manual-de-mantenimiento.pdf"
+      ],
+      "latency_s": 38.72,
+      "status": "OK"
+    },
+    {
+      "id": 9,
+      "question": "¿Qué lubricante (seco vs. húmedo) se recomienda para una cadena bajo lluvia, y cada cuántos kilómetros conviene reaplicarlo?",
+      "answer": "Según el manual de Park Tool, si se está en un área con mucha lluvia, se recomienda utilizar un lubricante \"húmedo\" o \"grease\" para la cadena. Esto se debe a que estos lubricantes tienen una mayor resistencia al agua y ayudarán a mantener la cadena lubricada durante el tiempo.\n\nEn cuanto a la frecuencia de reaplicación del lubricante, según el manual, es recomendable reemplazar el grease (lubricante húmedo) cada 1 año. Sin embargo, si se utiliza la bicicleta para carreras o se ride diariamente, se recomienda reemplazar el grease entre 2 y 3 veces al año.\n\nEn cuanto a la elección entre un lubricante \"seco\" (dry lube) y uno \"húmedo\", no hay una recomendación específica en el manual para una cadena bajo lluvia. Sin embargo, se menciona que los lubricantes \"secos\" son adecuados para rutas con poca lluvia o donde se deseche mucho, mientras que los lubricantes \"húmedos\" son más adecuados para áreas húmedas y lluviosas.\n\nEn resumen, si se está bajo lluvia, se recomienda utilizar un lubricante \"húmedo\" (grease) y reaplicarlo cada 1 año o entre 2 y 3 veces al año, según el uso de la bicicleta.",
+      "sources": [
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\Big-Blue-Book-of-Bicycle-Repair.pdf"
+      ],
+      "latency_s": 28.29,
+      "status": "OK"
+    },
+    {
+      "id": 10,
+      "question": "¿Cuáles son los pasos para retirar e instalar un pedalier Hollowtech II, incluyendo el sentido de rosca de la copa derecha y el torque final de apriete?",
+      "answer": "Según el manual Shimano, aquí están los pasos para retirar e instalar un pedalier Hollowtech II:\n\n**Retirar el pedalier:**\n\n1. **Loosen pinch bolts of compression slotted crank**: Comience girando las tornillos de presión del eje de la rueda en sentido antihorario hasta que estén lo suficientemente sueltos.\n2. **Remove crank cap after pinch bolts are loose**: Retire el tapón de la rueda después de que los tornillos de presión estén lo suficientemente sueltos.\n3. **Lift stop plate to pull off Shimano left cranks**: Levante la placa de frenado para desbloquear el pedalier.\n4. **Remove left side crank cap counter-clockwise**: Retire el tapón lateral del pedalier en sentido antihorario.\n\n**Instalar el pedalier:**\n\n1. **Grease the left and right hand adapters**: Engrasa los adaptadores izquierdo y derecho con grasa.\n2. **Use Shimano original tool to install right hand adapter of bottom bracket, inner cover and left hand adapter of bottom bracket**: Utilice la herramienta original Shimano para instalar el adaptador manual derecho del juego de pedalier, la cubierta interior y el adaptador manual izquierdo del juego del pedalier.\n3. **Set the wide groove area of the left crank arm into the axle of the right crank arm unit where the groove is wide**: Coloque el área ancho de la rama izquierda en el eje del brazo derecho donde el agujero es más ancho.\n4. **Fully insert the right crank arm unit until it touches the bottom bracket**: Inserte completamente el brazo derecho del eje hasta que toque el bloque inferior.\n\n**Torque final de apriete:**\n\n* Asegúrese de aplicar una pequeña cantidad de grasa a las roscas para evitar que los pedales se adhieran.\n* Utilice un torque wrench para apretar firmemente los pedales. El par de apriete recomendado es 35-55 N·m.\n\nRecuerde que si siente cualquier suavidad en los engranajes, el juego de pedalier debe ser reemplazado.",
+      "sources": [
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\DM-GN0001-26-SPA.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\DM-GN0001-30-ENG.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\DM-GN0001-26-ENG.pdf",
+        "D:\\GUARDAR\\Universidad\\Semestre 9\\Aprendizaje de maquina\\PRINCIPAL\\chatbot\\data\\pdfs\\Big-Blue-Book-of-Bicycle-Repair.pdf"
+      ],
+      "latency_s": 42.47,
+      "status": "OK"
+    }
+  ]
+}

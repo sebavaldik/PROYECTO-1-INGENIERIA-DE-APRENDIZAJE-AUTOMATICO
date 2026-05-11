@@ -1,0 +1,57 @@
+# =============================================================================
+# Bike Mechanics RAG Chatbot — docker-compose
+#
+# Servicios:
+#   ollama  →  servidor LLM local (llama3.2)
+#   api     →  backend FastAPI + ChromaDB + ingestión automática
+#
+# Uso:
+#   docker compose up --build
+#   Luego abrir frontend/index.html en el navegador.
+# =============================================================================
+
+services:
+
+  # ── Servidor Ollama (LLM local) ───────────────────────────────────────────
+  ollama:
+    image: ollama/ollama:latest
+    container_name: bike_chatbot_ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      # Persiste los modelos descargados entre reinicios
+      - ollama_models:/root/.ollama
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 15s
+      timeout: 10s
+      retries: 30
+      start_period: 60s
+
+  # ── Backend FastAPI + ingestión ───────────────────────────────────────────
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bike_chatbot_api
+    ports:
+      - "8000:8000"
+    volumes:
+      # Persiste ChromaDB para no re-ingestar en cada reinicio
+      - chroma_db:/app/data/chroma_db
+      # Persiste la caché de HuggingFace (modelo bge-m3 ~1.5 GB)
+      - hf_cache:/root/.cache/huggingface
+    environment:
+      # Le dice al cliente Python de Ollama dónde conectarse
+      - OLLAMA_HOST=http://ollama:11434
+    depends_on:
+      ollama:
+        condition: service_healthy
+    restart: unless-stopped
+
+# ── Volúmenes persistentes ────────────────────────────────────────────────────
+volumes:
+  ollama_models:   # Modelos Ollama (~2 GB para llama3.2)
+  chroma_db:       # Base de datos vectorial ChromaDB
+  hf_cache:        # Embeddings BAAI/bge-m3 (~1.5 GB)
